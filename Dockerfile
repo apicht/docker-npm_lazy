@@ -1,9 +1,8 @@
 #
-# Dockerfile for langrisha/npm-lazy
+# Dockerfile for bryce-gibson/npm-lazy
 #
 
-# Based on the much regarded Google Node.js image.
-FROM google/nodejs-runtime
+FROM node:onbuild
 
 # Volumize the NPM package cache.
 VOLUME ["/root/.npm_lazy"]
@@ -15,4 +14,4 @@ EXPOSE 8080
 CMD ["--show-config"]
 
 # Start the server on entry.
-ENTRYPOINT ["/nodejs/bin/node", "index.js"]
+ENTRYPOINT ["/usr/local/bin/node", "index.js"]
