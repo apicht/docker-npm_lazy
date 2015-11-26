@@ -4,12 +4,11 @@
   "description": "Dockerized distribution of npm_lazy",
   "main": "index.js",
   "scripts": {
-    "start": "/nodejs/bin/node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/langri-sha/npm_lazy.git"
+    "url": "https://github.com/StanAngeloff/npm_lazy.git"
   },
   "keywords": [
     "docker",
@@ -18,12 +17,12 @@
     "server",
     "lazy"
   ],
-  "author": "langri-sha",
+  "author": ["langri-sha", "Stan Angeloff"],
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/langri-sha/npm_lazy/issues"
+    "url": "https://github.com/StanAngeloff/npm_lazy/issues"
   },
-  "homepage": "https://github.com/langri-sha/npm_lazy",
+  "homepage": "https://github.com/StanAngeloff/npm_lazy",
   "dependencies": {
     "commander": "^2.6.0",
     "npm_lazy": "^1.7.0",

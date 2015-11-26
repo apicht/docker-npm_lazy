@@ -1,5 +1,5 @@
 #
-# Dockerfile for bryce-gibson/npm-lazy
+# Dockerfile for stanangeloff/npm-lazy
 #
 
 FROM node:onbuild
