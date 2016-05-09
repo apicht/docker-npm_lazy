@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/StanAngeloff/npm_lazy.git"
+    "url": "https://github.com/apicht/docker-npm_lazy.git"
   },
   "keywords": [
     "docker",
@@ -17,12 +17,12 @@
     "server",
     "lazy"
   ],
-  "author": ["langri-sha", "Stan Angeloff"],
+  "author": ["langri-sha", "Stan Angeloff", "gynzy", "Aaron Picht"],
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/StanAngeloff/npm_lazy/issues"
+    "url": "https://github.com/apicht/docker-npm_lazy/issues"
   },
-  "homepage": "https://github.com/StanAngeloff/npm_lazy",
+  "homepage": "https://github.com/apicht/docker-npm_lazy",
   "dependencies": {
     "commander": "^2.6.0",
     "npm_lazy": "^1.8.0",
