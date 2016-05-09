@@ -1,7 +1,5 @@
 # Docker npm_lazy
 
-[![Stories in Ready](https://badge.waffle.io/langri-sha/npm_lazy.png?label=ready&title=Ready)](https://waffle.io/langri-sha/npm_lazy)
-
 Add this Docker container to your orchestration and enjoy near-instantaneous
 package dependency resolutions, courtesy of
 [mixu's lazy npm cache](http://mixu.net/npm_lazy/)
@@ -29,7 +27,7 @@ the container to the same port on your host:
 
 ```
 # Start a detached container, mapping the exposed port locally
-sudo docker run -d -p 8080:8080 langrisha/npm-lazy
+sudo docker run -d -p 8080:8080 apicht/npm_lazy
 ```
 
 You can verify that the service is then accessible from your host via:
@@ -58,7 +56,7 @@ web:
   links:
     - npmlazy
 npmlazy:
-  image: langrisha/npm-lazy
+  image: apicht/npm_lazy
   command: --show-config --port=80 --external-url=http://npmlazy
 ```
 
@@ -136,5 +134,5 @@ runtime configuration.
 - [mixu/npm_lazy repository](https://github.com/mixu/npm_lazy/)
 - [npm_lazy configuration defaults (effectively applied)](https://github.com/mixu/npm_lazy/blob/master/config.js)
 - [configuring npm clients](https://docs.npmjs.com/misc/config)
-- [docker hub](https://registry.hub.docker.com/u/langrisha/npm-lazy/)
-- [docker source repository](https://github.com/langri-sha/npm_lazy/)
+- [docker hub](https://registry.hub.docker.com/u/apicht/npm_lazy/)
+- [docker source repository](https://github.com/apicht/docker-npm_lazy/)
