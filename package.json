@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/apicht/docker-npm_lazy",
   "dependencies": {
-    "commander": "^2.6.0",
-    "npm_lazy": "^1.10.0",
-    "underscore": "^1.7.0",
-    "underscore.string": "^3.0.3"
+    "commander": "^2.9.0",
+    "npm_lazy": "^1.13.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
   }
 }
