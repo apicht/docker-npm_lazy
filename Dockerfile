@@ -1,4 +1,4 @@
-FROM node:0.12
+FROM node:6
 
 # Volumize the NPM package cache.
 VOLUME ["/root/.npm_lazy"]
